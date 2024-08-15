@@ -17,7 +17,7 @@ const Clients = () => {
                     direction='right'
                     speed='slow'
                 />
-                <div className='flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10'>
+                <div className='flex flex-wrap items-center justify-center gap-4 md:gap-16 lg:mt-32 max-lg:mt-10'>
                     {companies.map((company) => (
                         <div key={company.id}
                             className='flex md:max-w-60 max-w-32 gap-2 my-1'

@@ -90,11 +90,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Portfolio Website Project",
+    des: "A showcase of my portfolio website project featuring a modern design and interactive elements.",
+    img: "/portofolio.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "#",
   },
   {
     id: 4,
@@ -109,7 +109,7 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      `"Working with Kira has proven to be exceptionally advantageous. He demonstrates remarkable leadership skills by effectively commanding the Astrall Express team. His ability to discern the right moments to advance or retreat showcases his strategic acumen. Kira’s reliability is unmatched; he consistently provides support and guidance to team members facing challenges. His keen sense of timing and his dedication to the team's success make him an invaluable asset. His proactive approach and willingness to assist others not only enhance team dynamics but also contribute significantly to achieving collective goals."`,
+      `"Kira is an exceptional leader with a keen strategic sense, knowing exactly when to advance or retreat. His reliability and support make him an invaluable asset to the Astral Express team. His proactive approach and dedication drive our collective success."`,
     name: "Welt Yang",
     title: "Member of the Astral Express Crew",
     img: "https://upload-os-bbs.hoyolab.com/upload/2022/07/07/175387813/3c00cf50e540a5cfe0f523ce2c1ce7a1_907939677121561953.jpg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70"
@@ -130,7 +130,7 @@ export const testimonials = [
 
   {
     quote:
-      `"Working with Kira has been a true pleasure. He is an exemplary colleague who approaches problem-solving with both logic and efficiency. His attention to detail and his genuine concern for those around him are remarkable. Kira's ability to navigate complex issues and provide thoughtful, actionable solutions has significantly contributed to our team's success. Beyond his professional skills, Kira is a dependable and empathetic team member who consistently fosters a supportive work environment. His dedication and collaborative spirit make him an invaluable asset to any team."`,
+      `"Kira is an exemplary colleague, blending logic with efficiency in problem-solving. His attention to detail and empathetic nature foster a supportive work environment. Kira's ability to navigate complex issues with actionable solutions has been key to our team's success."`,
     name: "Bronya",
     title: "Supreme Guardian of Belobog",
     img: "https://i.pinimg.com/736x/d2/9b/38/d29b38248c9a967c33baaac98574142b.jpg"
