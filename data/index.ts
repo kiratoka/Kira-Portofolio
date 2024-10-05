@@ -84,7 +84,7 @@ export const projects = [
     id: 2,
     title: "Kiraanimelist",
     des: "Explore the world of anime with our comprehensive platform. Connect with fellow enthusiasts, discover new series, and dive into the latest trends.",
-    img: "/kiraanimelist.jpg",
+    img: "https://res.cloudinary.com/damnmk82e/image/upload/v1728128468/Kiraanimelist_portofolio_burmme.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/js.svg", "/fm.svg", "/git.svg"],
     link: "https://kiraanimelist.vercel.app/",
   },
@@ -98,11 +98,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "KiraLiveDocs",
+    des: "Kira Live Docs is a website for real-time document editing.",
+    img: "https://res.cloudinary.com/damnmk82e/image/upload/v1728129278/KiraLiveDocsSS_m5s6gp.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/git.svg"],
+    link: "https://kiralivedocs.vercel.app/",
   },
 ];
 
