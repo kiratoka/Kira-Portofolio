@@ -22,7 +22,6 @@ export default function Home() {
           <Clients />
           <MyTech />
           <Approach />
-
         </div>
       </main>
       <Footer />
