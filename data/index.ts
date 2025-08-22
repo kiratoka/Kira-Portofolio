@@ -104,6 +104,22 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/git.svg"],
     link: "https://kiralivedocs.vercel.app/",
   },
+  {
+    id: 5,
+    title: "KiraTopUp",
+    des: "KiraTopUp is a website for top up game with modern UI and realtime 24 hours.",
+    img: "/KiraTopUpSS.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/git.svg"],
+    link: "https://kiratopup.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "KiraCV",
+    des: "KiraCV is a website for scanning CVs and providing AI-based evaluations and suggestions.",
+    img: "/KiraCVSS.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/git.svg"],
+    link: "https://kiracv.vercel.app/",
+  }
 ];
 
 export const testimonials = [
