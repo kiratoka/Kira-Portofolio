@@ -78,7 +78,7 @@ export const projects = [
     des: "A place to read the Quran with translations and interpretations.",
     img: "/kirarecitequran.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "/git.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://kirarecitequran.vercel.app/",
   },
   {
     id: 2,
