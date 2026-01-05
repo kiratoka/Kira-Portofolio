@@ -119,6 +119,14 @@ export const projects = [
     img: "/KiraCVSS.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/git.svg"],
     link: "https://kiracv.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Kirablog",
+    des: "Kirablog is a platform for creating blogs with a beautiful, modern, and user-friendly interface.",
+    img: "/Kirablog.jpg",
+    iconLists: ["/nest.svg", "/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "/git.svg"],
+    link: "https://kirablog.vercel.app/",
   }
 ];
 
