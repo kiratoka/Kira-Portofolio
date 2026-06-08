@@ -1,4 +1,4 @@
-import { link } from "fs";
+
 
 export const navItems = [
   { name: "About", link: "#about" },
@@ -78,7 +78,7 @@ export const projects = [
     des: "A place to read the Quran with translations and interpretations.",
     img: "/kirarecitequran.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "/git.svg"],
-    link: "https://kirarecitequran.vercel.app/",
+    link: "https://kirarecitequran.netlify.app/",
   },
   {
     id: 2,
@@ -86,7 +86,7 @@ export const projects = [
     des: "Explore the world of anime with our comprehensive platform. Connect with fellow enthusiasts, discover new series, and dive into the latest trends.",
     img: "https://res.cloudinary.com/damnmk82e/image/upload/v1728128468/Kiraanimelist_portofolio_burmme.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/js.svg", "/fm.svg", "/git.svg"],
-    link: "https://kiraanimelist.vercel.app/",
+    link: "https://kiraanimelist.netlify.app/",
   },
   {
     id: 3,
@@ -102,7 +102,7 @@ export const projects = [
     des: "Kira Live Docs is a website for real-time document editing.",
     img: "https://res.cloudinary.com/damnmk82e/image/upload/v1728129278/KiraLiveDocsSS_m5s6gp.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/git.svg"],
-    link: "https://kiralivedocs.vercel.app/",
+    link: "https://kiralivedocs.netlify.app/",
   },
   {
     id: 5,
@@ -110,7 +110,7 @@ export const projects = [
     des: "KiraTopUp is a website for top up game with modern UI and realtime 24 hours.",
     img: "/KiraTopUpSS.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/git.svg"],
-    link: "https://kiratopup.vercel.app/",
+    link: "https://kiratopup.netlify.app/",
   },
   {
     id: 6,
@@ -118,7 +118,7 @@ export const projects = [
     des: "KiraCV is a website for scanning CVs and providing AI-based evaluations and suggestions.",
     img: "/KiraCVSS.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/git.svg"],
-    link: "https://kiracv.vercel.app/",
+    link: "https://kiracv.netlify.app/",
   },
   {
     id: 7,
@@ -126,9 +126,19 @@ export const projects = [
     des: "Kirablog is a platform for creating blogs with a beautiful, modern, and user-friendly interface.",
     img: "/Kirablog.jpg",
     iconLists: ["/nest.svg", "/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "/git.svg"],
-    link: "https://kirablog.vercel.app/",
+    link: "https://kirablog.netlify.app/",
+  },
+  {
+    id: 8,
+    title: "Kiragacor999",
+    des: "Kiragacor999 is an educational web simulation designed to expose the rigged nature of online gambling by demonstrating how its algorithms are hardcoded to ensure players always lose.",
+    img: "/Kiragacor999.jpg",
+    iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "/git.svg","/fm.svg"],
+    link: "https://kiragacor999.netlify.app/",
   }
 ];
+  
+
 
 export const testimonials = [
   {
