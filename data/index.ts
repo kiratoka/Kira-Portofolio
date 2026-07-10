@@ -4,6 +4,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
+  { name: "Pricing", link: "#pricing" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -133,11 +134,11 @@ export const projects = [
     title: "Kiragacor999",
     des: "Kiragacor999 is an educational web simulation designed to expose the rigged nature of online gambling by demonstrating how its algorithms are hardcoded to ensure players always lose.",
     img: "/Kiragacor999.jpg",
-    iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "/git.svg","/fm.svg"],
+    iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "/git.svg", "/fm.svg"],
     link: "https://kiragacor999.netlify.app/",
   }
 ];
-  
+
 
 
 export const testimonials = [
@@ -265,5 +266,132 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+  },
+];
+
+// ─── Pricing Section ────────────────────────────────────────────────────────
+
+export interface PricingFeature {
+  label: string;
+  value: string;
+}
+
+export interface PricingPlan {
+  id: number;
+  /** Badge displayed above the plan name, e.g. "Most Popular" */
+  badge?: string;
+  name: string;
+  /** Original / crossed-out price (empty string = no strikethrough) */
+  originalPrice: string;
+  /** Active price shown prominently */
+  price: string;
+  /** Short subtitle shown below the price */
+  subtitle: string;
+  /** Tailwind accent-colour token used for glow / highlights */
+  accentColor: "cyan" | "violet" | "fuchsia";
+  features: PricingFeature[];
+  /** CTA button label */
+  ctaLabel: string;
+  /** WhatsApp URL or any href */
+  ctaHref: string;
+  /** Whether this plan should visually stand out (scale, glow ring, etc.) */
+  featured?: boolean;
+}
+
+export interface PricingAddon {
+  id: number;
+  icon: string;
+  title: string;
+  description: string;
+  price: string;
+}
+
+export const pricingPlans: PricingPlan[] = [
+  {
+    id: 1,
+    name: "Starter",
+    originalPrice: "Rp 1.200.000",
+    price: "Rp 500.000",
+    subtitle: "Perfect for personal branding & new micro businesses",
+    accentColor: "cyan",
+    features: [
+      { label: "Sections", value: "1 scrollable page (Hero, About, Contact/CTA)" },
+      { label: "Revision", value: "1x revision" },
+      { label: "Hosting", value: "Free subdomain (e.g., yourname.netlify.app)" },
+      { label: "Form / CTA", value: "Simple WhatsApp button" },
+      { label: "Delivery Time", value: "2–3 business days" },
+      { label: "Extras", value: "—" },
+    ],
+    ctaLabel: "Order Now",
+    ctaHref: "https://wa.me/6285797206522?text=Hi%2C%20I'm%20interested%20in%20the%20Starter%20Package!",
+  },
+  {
+    id: 2,
+    badge: "Most Popular",
+    name: "Business",
+    originalPrice: "Rp 2.200.000",
+    price: "Rp 1.200.000",
+    subtitle: "Ideal for shops, restaurants, or professional services",
+    accentColor: "violet",
+    featured: true,
+    features: [
+      { label: "Sections", value: "4–5 sections (Hero, About, Products/Menu, Gallery, Contact)" },
+      { label: "Revision", value: "2x revisions" },
+      { label: "Hosting", value: "Free + connected to your custom domain" },
+      { label: "Form / CTA", value: "WhatsApp button + Google Maps integration" },
+      { label: "Delivery Time", value: "4–5 business days" },
+      { label: "Extras", value: "—" },
+    ],
+    ctaLabel: "Order Now",
+    ctaHref: "https://wa.me/6285797206522?text=Hi%2C%20I'm%20interested%20in%20the%20Business%20Package!",
+  },
+  {
+    id: 3,
+    name: "Complete",
+    originalPrice: "",
+    price: "Rp 2.200.000",
+    subtitle: "For businesses that need leads & maximum online presence",
+    accentColor: "fuchsia",
+    features: [
+      { label: "Sections", value: "6–7 sections (Hero, About, Products/Menu, Special Packages, Gallery, Testimonials, Contact)" },
+      { label: "Revision", value: "3x revisions" },
+      { label: "Hosting", value: "Free + custom domain setup assistance" },
+      { label: "Form / CTA", value: "Leads form connected automatically to WhatsApp" },
+      { label: "Waktu Pengerjaan", value: "5–7 business days" },
+      { label: "Extras", value: "Basic SEO (meta tags, search engine descriptions)" },
+    ],
+    ctaLabel: "Order Now",
+    ctaHref: "https://wa.me/6285797206522?text=Hi%2C%20I'm%20interested%20in%20the%20Complete%20Package!",
+  },
+];
+
+export const pricingAddons: PricingAddon[] = [
+  {
+    id: 1,
+    icon: "🔄",
+    title: "Extra Revision",
+    description: "Additional revisions outside the package quota",
+    price: "Rp 50.000 – 100.000 / revision",
+  },
+  {
+    id: 2,
+    icon: "📸",
+    title: "Product / Menu Photography",
+    description: "Help shooting products or menu items if the client cannot take them",
+    price: "Negotiable based on item count",
+  },
+  {
+    id: 3,
+    icon: "🛠️",
+    title: "Monthly Maintenance",
+    description: "Update content, change images or menu prices monthly",
+    price: "Rp 100.000 – 200.000 / month",
+  },
+  {
+    id: 4,
+    icon: "🌐",
+    title: "Domain Renewal Service",
+    description: "Help handling annual custom domain renewals (service fee + actual domain cost)",
+    price: "Rp 50.000 + actual domain cost",
   },
 ];
